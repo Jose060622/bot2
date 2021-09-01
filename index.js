@@ -75,12 +75,12 @@ const sleep = async (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-prefix = '#'
+prefix = '/'
 blocked = []
-fake = '𝐒𝐎𝐅𝐈•𝐁𝐎𝐓 𝐕2'
+fake = '𝐁𝐎𝐓 𝐕2'
 fakeimage = fs.readFileSync(`./media/confu.jpeg`)
 numbernye = '10'
-join = '𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐱 7𝐮7, 𝐬𝐨𝐲 𝐒𝐨𝐟𝐢 𝐮𝐧𝐚 𝐛𝐨𝐭𝐬𝐢𝐭𝐚 𝐮𝐰𝐮, 𝐄𝐬𝐩𝐞𝐫𝐨 𝐪𝐮𝐞 𝐭𝐞 𝐬𝐢𝐞𝐧𝐭𝐚𝐬 𝐜𝐨𝐦𝐨 𝐞𝐧 𝐜𝐚𝐬𝐚 𝐛𝐞𝐛𝐮'
+join = '𝔹𝕚𝕖𝕟𝕧𝕖𝕟𝕚𝕕𝕠 𝕒 𝕟𝕦𝕤𝕥𝕣𝕠 𝕘𝕣𝕦𝕡𝕠'
 public = true
 
 const vcard = 'BEGIN:VCARD\n' 
@@ -261,25 +261,25 @@ cnf.on('CB:action,,call', async json => {
 			
 
 			mess = {
-				wait: 'Soy lenta, espera (╥﹏╥)',
-				nsfwoff: 'La Funcion De Nsfw No Está Activa :c',
-				success: 'Listo',
-				wrongFormat: 'Escribe Bien porfavor :c',
-				waitmusic: 'Espera, Estoy buscando tu musica 7w7',
-				waitimg: 'Soy lenta, espera (╥﹏╥)',
-				musica: 'Espera un momento, estoy buscando tu musica 7u7',
-			imageoff: 'No tengo permitido enviar fotos (╥﹏╥) sorry',
+				wait: '𝕰𝖘𝖕é𝖗𝖆𝖒𝖊 𝖚𝖓 𝖕𝖔𝖈𝖔 𝖌𝖎𝖑',
+				nsfwoff: '𝕿𝖎𝖊𝖓𝖊𝖘 𝖖𝖚𝖊 𝖆𝖈𝖙𝖎𝖛𝖆𝖗𝖑𝖔 𝖆𝖓𝖙𝖊𝖘',
+				success: '𝔼𝕤𝕥𝕒 𝕝𝕚𝕤𝕥𝕠 𝕕𝕖𝕛𝕒 𝕕𝕖 𝕝𝕝𝕠𝕣𝕒𝕣',
+				wrongFormat: '𝔼𝕤𝕔𝕣𝕚𝕓𝕖 𝕓𝕚𝕖𝕟 𝕒𝕨𝕖𝕠𝕟𝕒𝕠',
+				waitmusic: '𝔼𝕤𝕥𝕠𝕪 𝕓𝕦𝕤𝕔𝕒𝕟𝕕𝕠 𝕥𝕦 𝕨𝕖𝕒 𝕕𝕖 𝕞𝕦𝕤𝕚𝕔𝕒',
+				waitimg: 'ɴᴏ ꜱᴏʏ ᴛᴀɴ ʀᴀᴘɪᴅᴏ',
+				musica: 'ᴇꜱᴘᴇʀᴀᴛᴇ ᴜɴ ᴘᴏᴄᴏ',
+			imageoff: 'ɴᴏ ᴘᴜᴇᴅᴏ ᴇɴᴠɪᴀʀ ɪᴍᴀɢᴇɴ',
 				error: {
-					stick: 'No pude :c',
-				errostick: 'Error al crear tu sticker :c',
-				Iv: 'Tu link ya no sirve :c al parecer'
+					stick: 'ɴᴏ ᴘᴜᴅᴇ ᴘᴏʀ Qᴜᴇ ᴇʀᴇꜱ ᴠɪʀɢᴇɴ',
+				errostick: 'ᴛᴜ ꜱᴛɪᴄᴋᴇʀ ᴇꜱ ᴍᴜʏ ᴍᴀʟᴏ ɴᴏ ʟᴏ ᴘᴜᴅᴇ ᴄʀᴇᴀʀ',
+				Iv: 'ᴇʟ ʟɪɴᴋ ᴇꜱᴛᴀ ᴄᴏʀʀᴜᴘᴛᴏ'
 				},
 				only: {
-					group: 'Este Comando Solo Puede Ser Usado En Grupos UwU',
-					ownerG: 'Este Comando Solo Puede Ser Usado Por El Dueño Del Grupo (◍•ᴗ•◍)',
-					ownerB: 'Este comando solo lo puede utilizar mi creador, tu no (・–・;)ゞ',
-					admin: 'No Eres Admin (╥﹏╥)',
-					Badmin: 'Necesito Ser Admin Primero :3'
+					group: 'ᴄᴏᴍᴀɴᴅᴏ ꜱᴏʟᴏ ᴘᴀʀᴀ ɢʀᴜᴘᴏꜱ',
+					ownerG: 'ᴇʟ ᴄʀᴇᴀᴅᴏʀ ᴅᴇʟ ɢʀᴜᴘᴏ ᴘᴜᴇᴅᴇ ᴜꜱᴀʀ ᴇꜱᴛᴇ ᴄᴏᴍᴀɴᴅᴏ',
+					ownerB: 'ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ ᴜꜱᴀʀʟᴏ',
+					admin: 'ɴᴏ ᴇʀᴇꜱ ᴀᴅᴍɪɴ ɢɪʟ',
+					Badmin: 'ᴅᴀᴍᴇ ᴀᴅᴍɪɴ ᴘʀɪᴍᴇʀᴏ'
 				}
 			}
 
@@ -749,7 +749,7 @@ const fakethumb = (teks, yes) => {
                         }
                     },
                     contextInfo: {
-                      "forwardingScore": 999, "isForwarded": true
+                      "forwardingScore": 100, "isForwarded": true
                     }
                 }
             })
@@ -983,136 +983,134 @@ const uploadImages = (buffData, type) => {
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
                     wew = fs.readFileSync(`./media/cnf.jpeg`)
-                    lzain = `╭❍ *𝐒𝐎𝐅𝐈•𝐁𝐎𝐓 𝐕2*
+                    lzain = `╭❍ *𝐁𝐎𝐓 𝐕2*
 │
 │Prefix : ⌜ ${prefix} ⌟
-│Creador : ConfuMods
+│Creador : Jose24
 │
-│✎_𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐬.
+│✪𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐬.
 │
-│๛ ${prefix}sticker
-│๛ ${prefix}attp texto
+│➣${prefix}sticker
+│➣${prefix}attp texto
 │
-│✎_𝐂𝐨𝐧𝐟𝐮.
+│✪Jose.
 │
-│๛ ${prefix}creador
+│➣${prefix}creador
 │
-│✎_𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐢𝐝𝐨𝐫𝐞𝐬.
+│✪𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐢𝐝𝐨𝐫𝐞𝐬.
 │
-│๛ ${prefix}toimg
-│๛ ${prefix}tomp3
+│➣${prefix}toimg
+│➣${prefix}tomp3
 │
-│✎_𝐎𝐭𝐚𝐤𝐮.
+│✪𝐎𝐭𝐚𝐤𝐮.
 │
-│๛ ${prefix}loli
-│๛ ${prefix}waifu
-│๛ ${prefix}yaoi
-│๛ ${prefix}muslos
+│➣${prefix}loli
+│➣${prefix}waifu
+│➣${prefix}yaoi
+│➣${prefix}muslos
 │
-│✎_𝐀𝐮𝐝𝐢𝐨.
+│✪𝐀𝐮𝐝𝐢𝐨.
 │
-│๛ ${prefix}tts es texto
+│➣${prefix}tts es texto
 │
-│✎_𝐍𝐬𝐟𝐰.
+│✪𝐍𝐬𝐟𝐰.
 │
-│๛ ${prefix}nsfwmenu
+│➣${prefix}nsfwmenu
 │
-│✎_𝐋𝐞𝐯𝐞𝐥.
+│✪𝐋𝐞𝐯𝐞𝐥.
 │
-│๛ ${prefix}level
-│๛ ${prefix}leveling
-│๛ ${prefix}lb
+│➣${prefix}level
+│➣${prefix}leveling
+│➣${prefix}lb
 │
-│✎_𝐋𝐢𝐦𝐢𝐭.
+│✪𝐋𝐢𝐦𝐢𝐭.
 │
-│๛ ${prefix}limit
-│๛ ${prefix}buylimit
+│➣${prefix}limit
+│➣${prefix}buylimit
 │
-│✎_𝐂𝐮𝐞𝐧𝐭𝐚.
+│✪𝐂𝐮𝐞𝐧𝐭𝐚.
 │
-│๛ ${prefix}cartera
-│๛ ${prefix}transferir @ | cantidad
+│➣${prefix}cartera
+│➣${prefix}transferir @ | cantidad
 │
-│✎_𝐄𝐯𝐞𝐧𝐭𝐨𝐬.
+│✪𝐄𝐯𝐞𝐧𝐭𝐨𝐬.
 │
-│๛ ${prefix}event
-│๛ ${prefix}minar
-│๛ ${prefix}trabajar
+│➣${prefix}event
+│➣${prefix}minar
+│➣${prefix}trabajar
 │
-│✎_𝐉𝐮𝐞𝐠𝐨𝐬.
+│✪𝐉𝐮𝐞𝐠𝐨𝐬.
 │
-│๛ ${prefix}charlie
-│๛ ${prefix}juego
-│๛ ${prefix}slot
-│๛ ${prefix}gay
-│๛ ${prefix}ruleta
-│๛ ${prefix}apostar
+│➣${prefix}charlie
+│➣${prefix}juego
+│➣${prefix}slot
+│➣${prefix}gay
+│➣${prefix}ruleta
+│➣v${prefix}apostar
 │
-│✎_𝐂𝐫𝐞𝐚𝐝𝐨𝐫.
+│✪𝐂𝐫𝐞𝐚𝐝𝐨𝐫.
 │
-│๛ ${prefix}sticker
-│๛ ${prefix}halloween
-│๛ ${prefix}vampire
-│๛ ${prefix}codetxt
-│๛ ${prefix}matrixgoogletxt
-│๛ ${prefix}spiderman
-│๛ ${prefix}express
-│๛ ${prefix}dance
-│๛ ${prefix}blackbird
-│๛ ${prefix}text3d
-│๛ ${prefix}warrior
+│➣${prefix}sticker
+│➣${prefix}halloween
+│➣${prefix}vampire
+│➣${prefix}codetxt
+│➣${prefix}matrixgoogletxt
+│➣${prefix}spiderman
+│➣${prefix}express
+│➣${prefix}dance
+│➣${prefix}blackbird
+│➣${prefix}text3d
+│➣${prefix}warrior
 │
-│✎_𝐆𝐫𝐮𝐩𝐨.
+│✪𝐆𝐫𝐮𝐩𝐨.
 │
-│๛ ${prefix}kick @
-│๛ ${prefix}getpic @
-│๛ ${prefix}getbio @
-│๛ ${prefix}listadmin
-│๛ ${prefix}promote @
-│๛ ${prefix}hidetag texto
-│๛ ${prefix}linkgc
-│๛ ${prefix}tagall
-│๛ ${prefix}tagall2
-│๛ ${prefix}tagall3
-│๛ ${prefix}tagall4
-│๛ ${prefix}tagall5
-│๛ ${prefix}kick @
-│๛ ${prefix}salir
-│๛ ${prefix}gay
-│๛ ${prefix}mute
-│๛ ${prefix}unmute
-│๛ ${prefix}chatlist
-│๛ ${prefix}blocklist
-│๛ ${prefix}linkgroup
-│๛ ${prefix}nsfw [1/0]
-│๛ ${prefix}antilink [1/0]
-│๛ ${prefix}welcome [1/0]
-│๛ ${prefix}grupo [abrir/cerrar]
+│➣${prefix}kick @
+│➣${prefix}getpic @
+│➣${prefix}getbio @
+│➣${prefix}listadmin
+│➣${prefix}promote @
+│➣${prefix}hidetag texto
+│➣${prefix}linkgc
+│➣${prefix}tagall
+│➣${prefix}tagall2
+│➣${prefix}tagall3
+│➣${prefix}tagall4
+│➣${prefix}tagall5
+│➣${prefix}kick @
+│➣${prefix}salir
+│➣${prefix}gay
+│➣${prefix}mute
+│➣${prefix}unmute
+│➣${prefix}chatlist
+│➣${prefix}blocklist
+│➣${prefix}linkgroup
+│➣${prefix}nsfw [1/0]
+│➣${prefix}antilink [1/0]
+│➣${prefix}welcome [1/0]
+│➣${prefix}grupo [abrir/cerrar]
 │
-│✎_𝐎𝐭𝐫𝐨𝐬.
+│✪𝐭𝐫𝐨𝐬.
 │
-│๛ ${prefix}gay
-│๛ ${prefix}wame
-│๛ ${prefix}frases
-│๛ ${prefix}piropos
-│๛ ${prefix}getpic @
-│๛ ${prefix}getbio @
-│๛ ${prefix}wallpaper
+│➣${prefix}gay
+│➣${prefix}wame
+│➣${prefix}frases
+│➣${prefix}piropos
+│➣${prefix}getpic @
+│➣${prefix}getbio @
+│➣${prefix}wallpaper
 │
-│✎_𝐂𝐫𝐞𝐝𝐢𝐭𝐨𝐬_
+│✪𝐂𝐫𝐞𝐝𝐢𝐭𝐨𝐬_
+│ Jose : wa.me/+56944451822
+│ Jose : https://www.instagram.com/__jose.cl/
 │
-│ Confu : https://youtube.com/c/confumods
-│ Confu : wa.me/+50254371795
-│ Confu : instagram.com/confumods
-│
-╰❏ *𝐁𝐎𝐓 𝐁𝐘 𝐂𝐎𝐍𝐅𝐔𝐌𝐎𝐃𝐒*
+╰❏ *ʙᴏᴛ ʙʏ ᴊᴏꜱᴇ*
 
 ╭❍ *𝐍𝐎𝐓𝐀*
 │
-│✎_ *Para ganar dinero*
-│✎_ *Puedes jugar*
-│✎_ *Puedes*
-│✎_ *Puedes minar*
+│✪ *Para ganar dinero*
+│✪ *Puedes jugar*
+│✪ *Puedes*
+│✪ *Puedes minar*
 │
 ╰❏ *𝐍𝐎𝐓𝐀*`                  
 cnf.sendMessage(from, wew, image,{contextInfo: {forwardingScore : 508, isForwarded: true},sendEphemeral: true, quoted:ftoko, caption:lzain})
@@ -1328,10 +1326,10 @@ confirmATM(sender, 30)
 			anu = await axios.get('https://nekos.life/api/v2/img/anal')
 			exec(`wget ${anu.data.url} -O ${ranp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=15 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${rano}`, (err) => {
 			  fs.unlinkSync(ranp)
-				if (err) return reply('E-error ⊙﹏⊙')
+				if (err) return reply('ᴇʀʀᴏʀ xᴅ')
 				buffer = fs.readFileSync(rano)
 				cnf.sendMessage(from, buffer, MessageType.sticker, {quoted: mek})
-				reply('Se te cobraron 30 soficoins')
+				reply('Se te cobraron 30 puntos')
 				fs.unlinkSync(rano)
 			})
 			break		
@@ -1339,7 +1337,7 @@ case prefix+ 'pwankg':
 if (!isNsfw) return reply(mess.nsfwoff)
  const uaangkauruiru = checkATMuser(sender)
 const jmocoo = [`${uaangkauruiru}`]
-if (jmocoo < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jmocoo < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤.`)
 confirmATM(sender, 30)
 
       ranp = getRandom('.gif')
@@ -1347,10 +1345,10 @@ confirmATM(sender, 30)
 			anu = await axios.get('https://nekos.life/api/v2/img/pwankg')
 			exec(`wget ${anu.data.url} -O ${ranp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=15 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${rano}`, (err) => {
 			  fs.unlinkSync(ranp)
-				if (err) return reply('E-error ⊙﹏⊙')
+				if (err) return reply('ᴇʀʀᴏʀ xᴅ')
 				buffer = fs.readFileSync(rano)
 				cnf.sendMessage(from, buffer, MessageType.sticker, {quoted: mek})
-				reply('Se te cobraron 30 soficoins')
+				reply('Se te cobraron 30 puntos')
 				fs.unlinkSync(rano)
 			})
 			break
@@ -1358,13 +1356,13 @@ case prefix+ 'eron':
 if (!isNsfw) return reply(mess.nsfwoff)
  const uaangkaumrru = checkATMuser(sender)
 const jmuoo = [`${uaangkaumrru}`]
-if (jmuoo < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jmuoo < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤.`)
 confirmATM(sender, 30)
 			eronz = await axios.get('https://nekos.life/api/v2/img/eron')
 			buferon = await getBuffer(eronz.data.url)
 			cnf.sendMessage(from, buferon, image, { quoted: mek, caption: 'Se te cobraron 30 soficoins'})
 			.catch(err => {
-			return('E-error ⊙﹏⊙')
+			return('ᴇʀʀᴏʀ xᴅ')
 			})
 			break
 
@@ -1372,14 +1370,14 @@ case prefix+ 'ero':
 if (!isNsfw) return reply(mess.nsfwoff)
  const uaangkaurmru = checkATMuser(sender)
 const jmomo = [`${uaangkaurmru}`]
-if (jmomo < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jmomo < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
 confirmATM(sender, 30)
 
 			eroz = await axios.get('https://nekos.life/api/v2/img/ero')
 			bufero = await getBuffer(eroz.data.url)
 			cnf.sendMessage(from, bufero, image, { quoted: mek, caption: 'Se te cobraron 30 soficoins'})
 			.catch(err => {
-			return('E-error vuelve a intentar ⊙﹏⊙')
+			return('ᴇʀʀᴏʀ xᴅ')
 			})
 			break
 case prefix+ 'erok':
@@ -1421,13 +1419,13 @@ if (!isRegistered) return reply(ind.noregis())
 if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
  const uaangkaullu = checkATMuser(sender)
 const joda = [`${uaangkaullu}`]
-if (joda < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (joda < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤.`)
 confirmATM(sender, 30)
 		holox = await axios.get('https://nekos.life/api/v2/img/holoero')
 			bufholox = await getBuffer(holox.data.url)
 			cnf.sendMessage(from, bufholox, image, { quoted: mek, caption: 'Se te cobraron 30 soficoins'})
 			.catch(err => {
-			return('Error 7-7..')
+			return('ᴇʀʀᴏʀ xᴅ)
 			})
 			break
 case prefix+ 'cum':
@@ -1436,7 +1434,7 @@ if (!isRegistered) return reply(ind.noregis())
 if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
  const uaangkaukku = checkATMuser(sender)
 const jodas = [`${uaangkaukku}`]
-if (jodas < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jodas < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤.`)
 confirmATM(sender, 30)
       ranp = getRandom('.gif')
       rano = getRandom('.webp')
@@ -1471,7 +1469,7 @@ if (!isGroup) return reply(`「 ❗ 」ESTE COMANDO SOLO PUEDE SER USADO EN GRUP
             case prefix+'unreadall':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-                if (!mek.key.fromMe) return reply('*𝐬𝐨𝐥𝐨 𝐪𝐮𝐢𝐞𝐧 𝐝𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐨 𝐞𝐥 𝐛𝐨𝐭 𝐩𝐮𝐞𝐝𝐞 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐚𝐦𝐢𝐤𝐨 𝐮𝐧𝐮*')
+                if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
                 var chats = await cnf.chats.all()
                 chats.map( async ({ jid }) => {
                 await cnf.chatRead(jid, 'unread')
@@ -1483,7 +1481,7 @@ if (!isRegistered) return reply(ind.noregis())
             case prefix+'readall':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-                if (!mek.key.fromMe) return reply('*𝐬𝐨𝐥𝐨 𝐪𝐮𝐢𝐞𝐧 𝐝𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐨 𝐞𝐥 𝐛𝐨𝐭 𝐩𝐮𝐞𝐝𝐞 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐚𝐦𝐢𝐤𝐨 𝐮𝐧𝐮*')
+                if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
                 var chats = await cnf.chats.all()
                 chats.map( async ({ jid }) => {
                 await cnf.chatRead(jid)
@@ -1495,7 +1493,7 @@ if (!isRegistered) return reply(ind.noregis())
             case prefix+'unarchiveall':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-                if (!mek.key.fromMe) return reply('*𝐬𝐨𝐥𝐨 𝐪𝐮𝐢𝐞𝐧 𝐝𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐨 𝐞𝐥 𝐛𝐨𝐭 𝐩𝐮𝐞𝐝𝐞 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐚𝐦𝐢𝐤𝐨 𝐮𝐧𝐮*')
+                if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
                 reply('*éxito desarchivar todo el chat*')
                 console.log('succes unarchive chat = ' + from)
                 anu = await cnf.chats.all()
@@ -1510,14 +1508,14 @@ if (!isGroup) return reply(mess.only.group)
 					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 					if (args.length < 1) return reply('Hmmmm')
 					if (Number(args[0]) === 1) {
-						if (isAntiLink) return reply('Ya estaba activo (◍•ᴗ•◍)')
+						if (isAntiLink) return reply('Ya estaba activo ')
 						antilink.push(from)
 						fs.writeFileSync('./database/antilink.json', JSON.stringify(antilink))
-						reply('Se activo con exito(◍•ᴗ•◍)️')
+						reply('Se activo con exito')
 					} else if (Number(args[0]) === 0) {
 						antilink.splice(from, 1)
 						fs.writeFileSync('./database/antilink.json', JSON.stringify(antilink))
-						reply('Se desactivo con éxito la función de bienvenida en este grupo (・o・)️')
+						reply('Se desactivo con éxito la función de bienvenida en este grupo ')
 					} else {
 						reply('1 para activar, 0 para desactivar')
 					}
@@ -1526,7 +1524,7 @@ if (!isGroup) return reply(mess.only.group)
             case prefix+'archive':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-                if (!mek.key.fromMe) return reply('*𝐬𝐨𝐥𝐨 𝐪𝐮𝐢𝐞𝐧 𝐝𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐨 𝐞𝐥 𝐛𝐨𝐭 𝐩𝐮𝐞𝐝𝐞 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐚𝐦𝐢𝐤𝐨 𝐮𝐧𝐮*')
+                if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
                 reply('*okey wait..*')
                 console.log('chat de archivo de éxito = ' + from)
                 await sleep(3000)
@@ -1535,7 +1533,7 @@ if (!isRegistered) return reply(ind.noregis())
             case prefix+'delthischat':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-                if (!mek.key.fromMe) return reply('*𝐬𝐨𝐥𝐨 𝐪𝐮𝐢𝐞𝐧 𝐝𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐨 𝐞𝐥 𝐛𝐨𝐭 𝐩𝐮𝐞𝐝𝐞 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐚𝐦𝐢𝐤𝐨 𝐮𝐧𝐮*')
+                if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
                 reply('*éxito eliminar este chat*')
                 console.log('succes delete chat = ' + from)
                 await sleep(4000)
@@ -1590,7 +1588,7 @@ if (!isRegistered) return reply(ind.noregis())
           	boij = isQuotedImage || isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 			delb = await cnf.downloadMediaMessage(boij)
 			fs.writeFileSync(`./sticker/fake.jpeg`, delb)
-			fakestatus('Hecho mi amo 7~7')
+			fakestatus('esta hecho')
         	} else {
             reply(`Envía una imagen con ${prefix}sethumb`)
           	}
@@ -1598,8 +1596,8 @@ if (!isRegistered) return reply(ind.noregis())
                 case prefix+'shutdown':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-                if (!mek.key.fromMe) return reply('*𝐬𝐨𝐥𝐨 𝐪𝐮𝐢𝐞𝐧 𝐝𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐨 𝐞𝐥 𝐛𝐨𝐭 𝐩𝐮𝐞𝐝𝐞 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐚𝐦𝐢𝐤𝐨 𝐮𝐧𝐮*')
-	        await cnf.sendMessage(from, `Bye...\n_✨𝐁𝐨𝐭 𝐒𝐎𝐅𝐈•𝐁𝐎𝐓 apagandose..._`, text,{quoted : freply})
+                if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
+	        await cnf.sendMessage(from, `Bye...𝐁𝐎𝐓 apagandose..._`, text,{quoted : freply})
 		await sleep(3000)
                 cnf.close()
 		break
@@ -1610,7 +1608,7 @@ if (!isRegistered) return reply(ind.noregis())
 case prefix+'clone':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-if (!mek.key.fromMe) return reply('*𝐬𝐨𝐥𝐨 𝐪𝐮𝐢𝐞𝐧 𝐝𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐨 𝐞𝐥 𝐛𝐨𝐭 𝐩𝐮𝐞𝐝𝐞 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐚𝐦𝐢𝐤𝐨 𝐮𝐧𝐮*')
+if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
 					if (!isGroup) return reply(ind.groupo())
 					if (args.length < 1) return reply(' *Tag a quien quieres clonar!!!* ')
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag cvk')
@@ -1638,7 +1636,7 @@ if (!isRegistered) return reply(ind.noregis())
 				case prefix+'setpromote':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-				  if (args.length < 1) return reply('*Y el texto? Ù.ú?*')
+				  if (args.length < 1) return reply('*Y el texto?*')
                     cnf.updatePresence(from, Presence.composing) 
 					if (args.length < 1) return
 					promote = body.slice(11)
@@ -1668,7 +1666,7 @@ if (!isRegistered) return reply(ind.noregis())
 					case prefix+'setwelcome':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-					  if (args.length < 1) return reply('*Y el texto? Ù.ú?*')
+					  if (args.length < 1) return reply('*Y el texto? *')
                     cnf.updatePresence(from, Presence.composing) 
 					if (args.length < 1) return
 					join = body.slice(11)
@@ -1678,7 +1676,7 @@ if (!isRegistered) return reply(ind.noregis())
 			  case prefix+'setreply':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-			    if (args.length < 1) return reply('*Y el texto? Ù.ú?*')
+			    if (args.length < 1) return reply('*Y el texto? *')
                     cnf.updatePresence(from, Presence.composing) 
 					if (args.length < 1) return
 					fake = body.slice(10)
@@ -1688,7 +1686,7 @@ if (!isRegistered) return reply(ind.noregis())
 				case prefix+'setthumb':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-				if (!isQuotedImage) return reply('Reply imagenya')
+				if (!isQuotedImage) return reply('Reply imagen')
 				svst = body.slice(8)
 				boij = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 				delb = await cnf.downloadMediaMessage(boij)
@@ -1705,7 +1703,7 @@ if (!isRegistered) return reply(ind.noregis())
                 var p = await cnf.getStatus(`${yy}`, MessageType.text)
                 reply(p.status)
                 if (p.status == 401) {
-                reply("No tiene Biografía /.\ ")
+                reply("No tiene Biografía ")
                 }
                 break
 				
@@ -1750,7 +1748,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 cnf.sendMessage(from, pok, image, {
-  quoted: mek, caption: `𝐁𝐨𝐭 𝐒𝐎𝐅𝐈•𝐁𝐎𝐓`
+  quoted: mek, caption: '𝐁𝐎𝐓`
 })
 
 } catch {
@@ -1765,7 +1763,7 @@ break
 if (!isRegistered) return reply(ind.noregis())			  
 				 cnf.updatePresence(from, Presence.composing) 
 				 cnf.chatRead (from)
-				if (!mek.key.fromMe) return reply('*Este comando solo lo puede Usar mi creadora*')
+				if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
 					if (!isGroup) return reply(mess.groupo())
 					cnf.blockUser (`${body.slice(7)}@c.us`, "add")
 					cnf.sendMessage(from, `*Se bloqueo a* ${body.slice(7)}@c.us`, text)
@@ -1775,7 +1773,7 @@ if (!isRegistered) return reply(ind.noregis())
 				  case prefix+'listblock':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-					teks = 'Personas que intentaron llamarme oh que mi dueño quiso bloquear\n'
+					teks = 'Personas que intentaron llamarme '
 					for (let block of blocked) {
 						teks += `┣❥  @${block.split('@')[0]}\n`
 					}
@@ -1787,7 +1785,7 @@ if (!isRegistered) return reply(ind.noregis())
 					case prefix+'exif':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
-	        if (!mek.key.fromMe) return reply('*Solo mi creador puede usar ese comando UwU*')
+	        if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
 	        if (args.length < 1) return reply(`Usar ${prefix}exif nama|autho`)
 		if (!arg.split('|')) return reply(`Usar ${prefix}exif nama|author`)
 		    exif.create(arg.split('|')[0], arg.split('|')[1])
@@ -1859,7 +1857,7 @@ if (!isRegistered) return reply(ind.noregis())
 					
 					
 case prefix+'attp':
-				if (args.length < 1) return reply(`_Y el texto? Ù.ú_\n*ejemplo ${prefix}attp satan Ganteng*`)
+				if (args.length < 1) return reply(`_Y el texto? *ejemplo ${prefix}attp satan Ganteng*`)
 				attp2 = await getBuffer(`https://api.xteam.xyz/attp?file&text=${body.slice(6)}`)
 				cnf.sendMessage(from, attp2, sticker, {quoted: freply})
 				break
@@ -2109,13 +2107,13 @@ if (!isRegistered) return reply(ind.noregis())
 if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
  const uaangkauum = checkATMuser(sender)
 const jop = [`${uaangkauum}`]
-if (jop < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jop < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
 confirmATM(sender, 30)
   pusiimg = await axios.get('https://nekos.life/api/v2/img/pussy_jpg')
 			bufpusy = await getBuffer(pusiimg.data.url)
 				cnf.sendMessage(from, bufpusy, MessageType.image, {quoted: mek, caption: 'Se te cobraron 30 soficoins'})
 			.catch(err => {
-			return('Error 7-7.')
+			return('ᴇʀʀᴏʀ xᴅ')
 			})
 			break
 case  'oppai':
@@ -2124,13 +2122,13 @@ if (!isRegistered) return reply(ind.noregis())
 if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
 	 const uaangkauuuiu = checkATMuser(sender)
 const joll = [`${uaangkauuuiu}`]
-if (joll < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (joll < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
 confirmATM(sender, 30)
 					opai = await axios.get('https://nekos.life/api/v2/img/tits')
 			opaiz = await getBuffer(opai.data.url)
-			cnf.sendMessage(from, opaiz, image, { quoted: mek, caption: 'Se te cobraron 30 soficoins'})
+			cnf.sendMessage(from, opaiz, image, { quoted: mek, caption: 'Se te cobraron 30 puntos'})
 			.catch(err => {
-			return('Error 7-7.')
+			return('ᴇʀʀᴏʀ xᴅ.')
 			})
 			break
 case  'feetg':
@@ -2182,13 +2180,13 @@ if (!isRegistered) return reply(ind.noregis())
 if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
  const uaangkaquu = checkATMuser(sender)
 const jok = [`${uaangkaquu}`]
-if (jok < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jok < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
 confirmATM(sender, 30)
 			erokz = await axios.get('https://nekos.life/api/v2/img/erokemo')
 			erokzs = await getBuffer(erokz.data.url)
 			cnf.sendMessage(from, erokzs, image, { quoted: mek, caption: 'Se te cobraron 30 soficoins'})
 			.catch(err => {
-			return('Error 7-7.')
+			return('ᴇʀʀᴏʀ xᴅ')
 			})
 			break
 case  'eroyuri':
@@ -2198,7 +2196,7 @@ if (!isRegistered) return reply(ind.noregis())
 			buferoyu = await getBuffer(opai.data.url)
 			cnf.sendMessage(from, buferoyu, image, { quoted: mek })
 			.catch(err => {
-			return('Error 7-7')
+			return('ᴇʀʀᴏʀ xᴅ')
 			})
 			break
 case  'tickle':
@@ -2234,7 +2232,7 @@ if (!isRegistered) return reply(ind.noregis())
 			bupemdom = await getBuffer(anu.data.url)
 				cnf.sendMessage(from, bupemdom, image, {quoted: mek})
 			.catch(err => {
-			return('Error 7-7.')
+			return('ᴇʀʀᴏʀ xᴅ')
 			})
 			break
 case  'futanari':
@@ -2247,7 +2245,7 @@ if (joj < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢�
 confirmATM(sender, 30)
 			futan = await axios.get('https://nekos.life/api/v2/img/futanari')
 			futanz = await getBuffer(futan.data.url)
-			cnf.sendMessage(from, futanz, image, { quoted: mek, caption: 'Se te cobraron 30 soficoins'})
+			cnf.sendMessage(from, futanz, image, { quoted: mek, caption: 'Se te cobraron puntos'})
 			break
 case  'h':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
@@ -2255,7 +2253,7 @@ if (!isRegistered) return reply(ind.noregis())
 if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
    const uaangkaupppu = checkATMuser(sender)
 const jno = [`${uaangkaupppu}`]
-if (jno < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jno < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
 confirmATM(sender, 30)
           ranp = getRandom('.gif')
       rano = getRandom('.webp')
@@ -2275,7 +2273,7 @@ if (!isRegistered) return reply(ind.noregis())
 			traps = await getBuffer(trapx.data.url)
 			cnf.sendMessage(from, traps, image, { quoted: mek })
 			.catch(err => {
-			return('Error 7-7.')
+			return('ᴇʀʀᴏʀ xᴅ')
 			})
 			break
 			
@@ -2307,7 +2305,7 @@ if (!isRegistered) return reply(ind.noregis())
 if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
  const uaangkauccu = checkATMuser(sender)
 const jmo = [`${uaangkauccu}`]
-if (jmo < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jmo < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
 confirmATM(sender, 30)
       ranp = getRandom('.gif')
       rano = getRandom('.webp')
@@ -2326,13 +2324,13 @@ if (!isRegistered) return reply(ind.noregis())
 if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
  const uaangkauyyu = checkATMuser(sender)
 const jomm = [`${uaangkauyyu}`]
-if (jomm < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jomm < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤.`)
 confirmATM(sender, 30)
 			blowz = await axios.get('https://nekos.life/api/v2/img/blowjob')
 			bufblowz = await getBuffer(blowz.data.url)
-			cnf.sendMessage(from, bufblowz, image, {quoted: mek, caption: 'Se te cobraron 30 soficoins'})
+			cnf.sendMessage(from, bufblowz, image, {quoted: mek, caption: 'Se te cobraron 30 puntos'})
 			.catch(err => {
-			return('Error 7-7.')
+			return('ᴇʀʀᴏʀ xᴅ.')
 			})
 			break
 	case  'hentai':
@@ -2341,11 +2339,11 @@ if (!isRegistered) return reply(ind.noregis())
 	if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
  const uaangkaurru = checkATMuser(sender)
 const jmoo = [`${uaangkaurru}`]
-if (jmoo < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jmoo < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
 confirmATM(sender, 30)
 			hentaiz = await axios.get('https://nekos.life/api/v2/img/hentai')
 			bufhtz = await getBuffer(hentaiz.data.url)
-			cnf.sendMessage(from, bufhtz, image, {quoted: mek, caption: 'Se te cobraron 30 soficoins'})
+			cnf.sendMessage(from, bufhtz, image, {quoted: mek, caption: 'Se te cobraron 30 puntos'})
 			.catch(err => {
 			return('Error 7-7.')
 			})
@@ -2357,11 +2355,11 @@ if (!isRegistered) return reply(ind.noregis())
 					if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
  const uaangkaxuu = checkATMuser(sender)
 const jou = [`${uaangkaxuu}`]
-if (jou < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jou < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
 confirmATM(sender, 30)
 							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/animefeets`, {method: 'get'})
 							buffer = await getBuffer(res.url)
-							cnf.sendMessage(from, buffer, image, {quoted: mek, caption: 'Se te cobraron 30 soficoins'})
+							cnf.sendMessage(from, buffer, image, {quoted: mek, caption: 'Se te cobraron 30 puntos'})
 				   break
 			           case prefix+'term': 
 case prefix+'exec':
@@ -2395,7 +2393,7 @@ if (!isRegistered) return reply(ind.noregis())
             hen = args[0]
             if (!q) return fakestatus('Ingrese el enlace del grupo')
             var codeInvite = hen.split('https://chat.whatsapp.com/')[1]
-            if (!codeInvite) return fakegroup ('asegúrese de que el enlace sea correcto T-T!')
+            if (!codeInvite) return fakegroup ('asegúrese de que el enlace sea correcto !')
             var response = await cnf.acceptInvite(codeInvite)
             fakestatus('Lito')
             } catch {
@@ -2409,7 +2407,7 @@ if (!isRegistered) return reply(ind.noregis())
 if (!isRegistered) return reply(ind.noregis())			  
                         entah = args[0]
                         disname = args[1]
-                        if (isNaN(entah)) return reply('numero invalido UnU'.toUpperCase());
+                        if (isNaN(entah)) return reply('numero invalido '.toUpperCase());
                         vcard = 'BEGIN:VCARD\n'
                                   + 'VERSION:3.0\n'
                                   + `FN:${disname}\n`
@@ -2427,7 +2425,7 @@ if (joik < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢�
 confirmATM(sender, 30)
 							res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai?apikey=BotWeA`, {method: 'get'})
 							buffer = await getBuffer(res.result)
-							cnf.sendMessage(from, buffer, image, {quoted: mek, caption: 'Se te cobraron 30 soficoins'})
+							cnf.sendMessage(from, buffer, image, {quoted: mek, caption: 'Se te cobraron 30 puntos'})
 						
 						break
 					
@@ -2435,42 +2433,42 @@ confirmATM(sender, 30)
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
 						if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
-							if (!mek.key.fromMe) return reply('*Este comando solo lo puede Usar mi creadora*')
+							if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
  const uaangkauuiu = checkATMuser(sender)
 const joikk = [`${uaangkauuiu}`]
-if (joikk < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (joikk < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
 confirmATM(sender, 30)
 							res = await fetchJson(`https://meme-api.herokuapp.com/gimme/biganimetiddies`, {method: 'get'})
 							buffer = await getBuffer(res.url)
-							cnf.sendMessage(from, buffer, image, {quoted: mek, caption: 'Se te cobraron 30 soficoins'})
+							cnf.sendMessage(from, buffer, image, {quoted: mek, caption: 'Se te cobraron 30 puntos'})
 						
 						break
 					case prefix+'nsfwblowjob':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
 						if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
-							if (!mek.key.fromMe) return reply('*Este comando solo lo puede Usar mi creadora*')
+							if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
  const uaangkauiou = checkATMuser(sender)
 const jookk = [`${uaangkauiou}`]
-if (jookk < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jookk < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
 confirmATM(sender, 30)
 							res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwblowjob`, {method: 'get'})
 							buffer = await getBuffer(res.result)
-							cnf.sendMessage(from, buffer, image, {quoted: mek, caption: 'Se te cobraron 30 soficoins'})
+							cnf.sendMessage(from, buffer, image, {quoted: mek, caption: 'Se te cobraron 30 puntos'})
 						
 						break
 					case prefix+'nsfwneko':
     if (isLimit(sender)) return reply(ind.limitend(pushname))      
 if (!isRegistered) return reply(ind.noregis())			  
 						if (!isNsfw) return reply('「 ❗ 」La Funcion De Nsfw No Está Activa')
-							if (!mek.key.fromMe) return reply('*Este comando solo lo puede Usar mi creadora*')
+							if (!mek.key.fromMe) return reply('*ꜱᴏʟᴏ ʏᴏ ᴘᴜᴇᴅᴏ*')
  const uaangkauopu = checkATMuser(sender)
 const jooll = [`${uaangkauopu}`]
-if (jooll < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (jooll < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
 confirmATM(sender, 30)	
 													res = await fetchJson(`https://api.computerfreaker.cf/v1/neko`, {method: 'get'})
 							buffer = await getBuffer(res.result)
-							cnf.sendMessage(from, buffer, image, {quoted: mek, caption: 'Se te cobraron 30 soficoins'})
+							cnf.sendMessage(from, buffer, image, {quoted: mek, caption: 'Se te cobraron 30 puntos'})
 						
 						break
 			     case prefix+'kontag':
@@ -2751,7 +2749,7 @@ if (!isRegistered) return reply(ind.noregis())
 				mentions(teks, mentioned, true)
 				cnf.groupMakeAdmin(from, mentioned)
 			    } else {
-				mentions(`Ahora eres admin U~U ✔️') @${mentioned[0].split('@')[0]} Kamu Menjadi Admin Di Group *${groupMetadata.subject}*`, mentioned, true)
+				mentions(`Ahora eres admin  ✔️') @${mentioned[0].split('@')[0]} Kamu Menjadi Admin Di Group *${groupMetadata.subject}*`, mentioned, true)
 				cnf.groupMakeAdmin(from, mentioned)
 				}
 				break
@@ -2781,11 +2779,11 @@ if (!isRegistered) return reply(ind.noregis())
 if (!isRegistered) return reply(ind.noregis())			  
  const loluaangkauuuuuu = checkATMuser(sender)
 const loljñññño = [`${loluaangkauuuuuu}`]
-if (loljñññño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+if (loljñññño < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤.`)
 confirmATM(sender, 30) 	
 	confu = args.join(' ')
 	sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/halloween?text=${confu}&apikey=Ikyy69`)
-reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')
+reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos')
       break
       
       case prefix+'vampire':
@@ -2793,11 +2791,11 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const tuaangkauuuuuuu = checkATMuser(sender)
       const tjññññño = [`${tuaangkauuuuuuu}`]
-      if (tjññññño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (tjññññño < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤.`)
       confirmATM(sender, 30) 	
       confu = args.join(' ')
       sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/vampire?text=${confu}&apikey=Ikyy69`)
-      reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')
+      reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos)
       break
       
       case prefix+'codetxt':
@@ -2805,11 +2803,11 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const wuaangkauuuuuuuu = checkATMuser(sender)
       const wjñññññño = [`${wuaangkauuuuuuuu}`]
-      if (wjñññññño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (wjñññññño < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤.`)
       confirmATM(sender, 30) 	
       confu = args.join(' ')
       sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/maker/carbon?code=${confu}&apikey=Ikyy69`)
-      reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')
+      reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos')
       break
 
       case prefix+'matrix':
@@ -2817,11 +2815,11 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const buaangkauuuuuuu = checkATMuser(sender)
       const bjññññño = [`${buaangkauuuuuuu}`]
-      if (bjññññño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (bjññññño < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
       confirmATM(sender, 30) 	
 	  confu = args.join(' ')
  	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/matrix?text=${confu}&apikey=Ikyy69`)
-      reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')
+      reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos')
 	  break
 				
 	  case prefix+'googletxt':
@@ -2829,11 +2827,11 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const ubaangkauuuuuuu = checkATMuser(sender)
       const jñbñññño = [`${ubaangkauuuuuuu}`]
-      if (jñbñññño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (jñbñññño < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
       confirmATM(sender, 30) 	
 	  confu = args.join(' ')
 	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/google?text=${confu}&apikey=Ikyy69`)
-      reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')
+      reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos')
 	  break
 	  
 	  case prefix+'spiderman':
@@ -2841,11 +2839,11 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const uaangkauuuuuubu = checkATMuser(sender)
       const jññññbño = [`${uaangkauuuuuubu}`]
-      if (jññññbño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (jññññbño < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
       confirmATM(sender, 30) 		
 	  confu = args.join(' ')
 	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/spider?text=${confu}&apikey=Ikyy69`)
-	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')
+	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos')
 	  break
 				
 	  case prefix+'express':
@@ -2853,11 +2851,11 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const uaangkauuuumuuu = checkATMuser(sender)
       const jññññmño = [`${uaangkauuuumuuu}`]
-      if (jññññmño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (jññññmño < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤.`)
       confirmATM(sender, 30) 	 
       confu = args.join(' ')
 	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/express?text=${confu}&apikey=Ikyy69`)
-	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')
+	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos')
 	  break
 				
 	  case prefix+'dance':
@@ -2865,11 +2863,11 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const uaangkauuuuiuuu = checkATMuser(sender)
       const jñññññuo = [`${uaangkauuuuiuuu}`]
-      if (jñññññuo < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (jñññññuo < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
       confirmATM(sender, 30) 		
 	  confu = args.join(' ')
 	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/dance?text=${confu}&apikey=Ikyy69`)
-	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')	
+	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos')	
 	  break
 				
 	  case prefix+'blackbird':
@@ -2877,11 +2875,11 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const uaangkauuuuuussu = checkATMuser(sender)
       const jññññssño = [`${uaangkauuuuuussu}`]
-      if (jññññssño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (jññññssño < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
       confirmATM(sender, 30) 	
 	  confu = args.join(' ')
 	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/blackbird?text=${confu}&apikey=Ikyy69`)
-	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')
+	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos')
 	  break
 	 
 	  case prefix+'text3d':
@@ -2889,11 +2887,11 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const uaangkauuyuuuuu = checkATMuser(sender)
       const jñññññzo = [`${uaangkauuyuuuuu}`]
-      if (jñññññzo < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (jñññññzo < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
       confirmATM(sender, 30) 		
 	  confu = args.join(' ')
 	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/text3d?text=${confu}&apikey=Ikyy69`)
-  	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')		
+  	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos')		
 	  break
 	
       case prefix+'warrior':
@@ -2901,11 +2899,11 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const uaangkapouuuuuuu = checkATMuser(sender)
       const jñññklñño = [`${uaangkapouuuuuuu}`]
-      if (jñññklñño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (jñññklñño < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
       confirmATM(sender, 30) 		
       confu = args.join(' ')
       sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/warrior?text=${confu}&apikey=Ikyy69`)
-      reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')	
+      reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 puntos')	
       break
 
       case prefix+'loli':
@@ -2913,12 +2911,12 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const uaangkauuu = checkATMuser(sender)
       const jño = [`${uaangkauuu}`]
-      if (jño < 20) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (jño < 20) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
       confirmATM(sender, 20)
 	  anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/randomloli?apikey=Ikyy69`)
       buffer = await getBuffer(anu.link)
 	  cnf.sendMessage(from, buffer, image, {
-      quoted: mek, caption: '𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟐𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬'})
+      quoted: mek, caption: '𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟐𝟎 puntos '})
 	  break
 
 	  case prefix+'waifu':
@@ -2926,7 +2924,7 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢�
       if (!isRegistered) return reply(ind.noregis())			  
       const uaangkauuuuu = checkATMuser(sender)
       const jññpo = [`${uaangkauuuuu}`]
-      if (jññpo < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
+      if (jññpo < 30) return reply(`𝕝𝕠 𝕔𝕚𝕖𝕟𝕥𝕠 𝕟𝕠 𝕥𝕚𝕖𝕟𝕖𝕤 𝕡𝕦𝕟𝕥𝕠𝕤`)
       confirmATM(sender, 30)
 	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/sfw/neko?apikey=Ikyy69`)
       reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨 𝟑𝟎 𝐬𝐨𝐟𝐢𝐜𝐨𝐢𝐧𝐬')
